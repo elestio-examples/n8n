@@ -41,7 +41,7 @@ x-shared: &shared
       condition: service_healthy
 services:
   postgres:
-    image: postgres:latest
+    image: postgres:15
     restart: always
     container_name: db
     environment:
