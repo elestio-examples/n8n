@@ -29,6 +29,7 @@ x-shared: &shared
     N8N_SMTP_PASS: " "
     N8N_SMTP_SENDER: ${SMTP_FROM_EMAIL}
     N8N_SMTP_SSL: "false"
+    NODE_TLS_REJECT_UNAUTHORIZED: 0
   links:
     - postgres
     - redis
