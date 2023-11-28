@@ -30,6 +30,8 @@ x-shared: &shared
     N8N_SMTP_SENDER: ${SMTP_FROM_EMAIL}
     N8N_SMTP_SSL: "false"
     NODE_TLS_REJECT_UNAUTHORIZED: 0
+    EXECUTIONS_DATA_PRUNE: "true"
+    EXECUTIONS_DATA_MAX_AGE: 336    
   links:
     - postgres
     - redis
