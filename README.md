@@ -22,4 +22,4 @@ More information about N8N usage can also be found in the documentation.: https:
 By default, automatic data pruning is enabled for execution logs, and the record should be deleted 14 days after execution.
 
 If you want to enable/disable or change the number of hours then you can do it by:
-Open Elestio dashboard > Service overview > Click on the Update CONFIG button > Env tab their edit 'EXECUTIONS_DATA_PRUNE', & 'EXECUTIONS_DATA_MAX_AGE' and click the button 'Update & Restart'.
+Open Elestio dashboard > Service overview > Click on the "Update Config" button > "Docker Compose" tab then edit 'EXECUTIONS_DATA_PRUNE', & 'EXECUTIONS_DATA_MAX_AGE' in the environment and click the button 'Update & Restart'.
