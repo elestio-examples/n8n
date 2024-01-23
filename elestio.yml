@@ -25,6 +25,8 @@ environments:
     value: "25"
   - key: "N8N_BASIC_AUTH_USER"
     value: "root"
+  - key: "N8N_ENCRYPTION_KEY"
+    value: "random_password"
   - key: "EXECUTIONS_DATA_PRUNE"
     value: "true"
   - key: "EXECUTIONS_DATA_MAX_AGE"
