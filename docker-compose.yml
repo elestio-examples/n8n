@@ -31,7 +31,8 @@ x-shared: &shared
     N8N_SMTP_SSL: "false"
     NODE_TLS_REJECT_UNAUTHORIZED: 0
     EXECUTIONS_DATA_PRUNE: "true"
-    EXECUTIONS_DATA_MAX_AGE: 336    
+    EXECUTIONS_DATA_MAX_AGE: 336
+    N8N_ENCRYPTION_KEY: ${N8N_ENCRYPTION_KEY}
   links:
     - postgres
     - redis
