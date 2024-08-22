@@ -33,6 +33,8 @@ x-shared: &shared
     EXECUTIONS_DATA_PRUNE: "true"
     EXECUTIONS_DATA_MAX_AGE: 336
     N8N_ENCRYPTION_KEY: ${N8N_ENCRYPTION_KEY}
+    N8N_DEFAULT_BINARY_DATA_MODE: filesystem
+    N8N_PAYLOAD_SIZE_MAX: 32
   links:
     - postgres
     - redis
