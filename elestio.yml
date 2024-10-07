@@ -30,7 +30,7 @@ environments:
   - key: "EXECUTIONS_DATA_PRUNE"
     value: "true"
   - key: "EXECUTIONS_DATA_MAX_AGE"
-    value: "168"
+    value: "336"
   - key: "EXECUTIONS_DATA_PRUNE_MAX_COUNT"
     value: "10000"
   - key: "POSTGRES_DB"
